@@ -93,7 +93,7 @@ def buy_order():
     query = {
         'market': 'KRW-BTC',
         'side': 'bid',
-        'price': '100000',  # 매수 금액 설정 (원화 기준)
+        'price': '150000',  # 매수 금액 설정 (원화 기준)
         'ord_type': 'price',  # 시장가 매수
     }
     query_string = urlencode(query).encode()
